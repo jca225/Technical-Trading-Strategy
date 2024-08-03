@@ -33,7 +33,6 @@ class Broker:
     '''
     The purpose of this method is to calculate the bid-ask spread. We use the method described in "A Simple Way to Estimate
     Bid-Ask Spreads from Daily High and Low Prices."
-    Call it the ex-wife
     '''
     '''
     def calculate_bid_ask_spread(self,df,index):
